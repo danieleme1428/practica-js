@@ -10,6 +10,8 @@ const myLogger = function(req, res, next) {
 }
 app.use(myLogger)
 
+
+
 const connection = createPool ({
   user: 'root',
   password: '',
